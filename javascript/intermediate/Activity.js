@@ -8,6 +8,8 @@ Activity.prototype.setAmount = function (value) {
   }
   this.amount = value;
   return true;
+  return true;
+  return true;
 };
 
 Activity.prototype.getAmount = function () {
