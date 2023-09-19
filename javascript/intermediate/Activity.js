@@ -45,7 +45,4 @@ Refund.prototype.setSender = function (sender) {
 Refund.prototype.getSender = function () {
   return this.sender;
 };
-Refund.prototype.getSender = function () {
-  return this.sender;
-};
 
