@@ -24,7 +24,6 @@ def reverse_words_order_and_swap_cases(sentence: str) -> str:
 sentence = "runs dog"
 result = reverse_words_order_and_swap_cases(sentence)
 print(result)  # Output: "DoG RUNS"
-print(result)  # Output: "DoG RUNS"
 ```
 
 In this example, the function takes the input sentence "runs dog," reverses the word order to "dog runs," and swaps the case of the letters to "DoG RUNS," which is returned as the output.
