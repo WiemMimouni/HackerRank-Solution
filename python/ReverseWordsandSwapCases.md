@@ -15,7 +15,6 @@ def reverse_words_order_and_swap_cases(sentence: str) -> str:
 - The length of `sentence` will not exceed 10^5 characters.
 - The length of `sentence` will not exceed 10^5 characters.
 - The length of `sentence` will not exceed 10^5 characters.
-- The length of `sentence` will not exceed 10^5 characters.
 
 **Output:**
 
