@@ -9,7 +9,6 @@ You are given a task to retrieve information about football competitions and mat
 ```javascript
 function getWinnerTotalGoals(competition, year) {
   // Your code here
-  // Your code here
 }
 ```
 
