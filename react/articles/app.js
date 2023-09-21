@@ -6,6 +6,7 @@ import "h8k-components";
 import Articles from "./components/Articles";
 
 const title = "Sorting Articles";
+const title = "Sorting Articles";
 
 function App({ articles }) {
 
