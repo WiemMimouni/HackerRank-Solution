@@ -8,6 +8,7 @@ import Articles from "./components/Articles";
 const title = "Sorting Articles";
 
 function App({ articles }) {
+
   const [sortedArticles, setSortedArticles] = useState(articles);
   const [sortBy, setSortBy] = useState("upvotes"); // Default sorting by upvotes
   useEffect(() => {
@@ -17,6 +18,11 @@ function App({ articles }) {
   }, [articles]);
   // Function to handle sorting by upvotes
   const handleSortByUpvotes = () => {
+    const sorted = [...sortedArticles].sort((a, b) => b.upvotes - a.upvotes);
+    setSortedArticles(sorted);
+    setSortBy("upvotes");
+  };
+  const handleSortByUpvote = () => {
     const sorted = [...sortedArticles].sort((a, b) => b.upvotes - a.upvotes);
     setSortedArticles(sorted);
     setSortBy("upvotes");
