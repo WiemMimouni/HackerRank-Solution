@@ -24,7 +24,7 @@ function App({ articles }) {
   };
   const handleSortByUpvote = () => {
     const sorted = [...sortedArticles].sort((a, b) => b.upvotes - a.upvotes);
-    setSortedArticles(sorted);
+    setSortedArticles(sorted)
     setSortBy("upvotes")
   };
 
